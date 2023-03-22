@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    background-color: rgb(46, 46, 49);
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-section{
+    margin-top: 30px;
+    color: black;
+    /* border: 2px solid white; */
+    width: 50%;
+    /* display: block; */
+}
+.short-div{
+    margin: 10px 20px;
+}
+.short-div #fname {
+    margin: 0px 50px;
+    padding: 5px;
+    width: 45%;
+    color: black;
+}
+.short-div #email {
+    margin: 0px 53px;
+    padding: 5px;
+    color: black;
+    width: 45%;
+}
+.short-div #website{
+    margin: 0px 34px;
+    padding: 5px;
+    color: black;
+    width: 45%;
+}
+.short-div #image{
+    margin: 0px 19px;
+    padding: 5px;
+    color: black;
+    width: 45%;
+}
+.short-div .showgender{
+    position: relative;
+    left: 16%;
+}
+.short-div .skills {
+    position: relative;
+    left: 16%;
+}
+.btns{
+    margin: 0 20px;
+}
+.btns .btn{
+    /* color: black; */
+    margin: 12px;
+    padding: 10px 15px;
+    background-color: rgb(90, 86, 86);
+    outline: none;
+    cursor: pointer;
+    border: 2px solid rgb(90, 86, 86);;
+    color: white;
+    /* box-shadow: 0 0px 30px rgb(224, 224, 238); */
+}
+/* h3{
+    margin: 30px;
+} */
+.right-section{
+    margin: 30px 30px;
+}
+.right-section .mytable{
+    margin-top: 30px;
+    /* border: 2px solid white; */
+}
+.right-section .data{
+    width: 300px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+/* .mytable .row{
+    display: flex;
+    justify-content: space-between;
+} */
